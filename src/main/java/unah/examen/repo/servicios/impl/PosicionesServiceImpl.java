@@ -27,7 +27,7 @@ public class PosicionesServiceImpl implements PosicionesService {
     }
     
     
-    public void simularYActualizarPosiciones() {
+    public void simularPosiciones() {
         List<Equipos> equipos = equiposRepository.findAll();
 
         for (Equipos local : equipos) {
